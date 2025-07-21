@@ -1,17 +1,22 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 :root {
   font-family: "Open Sans", sans-serif;
   line-height: 150%;
+  
 }
+
 
 #page {
   box-sizing: border-box;
-  width: 1120px;
-  margin: 88px 80px;
+  width: 1280px;
+  margin: 88px auto;
+}
+
+#titleList {
+  padding: 32px auto;
+}
+
+#list {
+  padding: 64px 0px 0px 0px;
 }
 
 img {
@@ -35,46 +40,81 @@ img {
   background-color: #d9d9d9;
 }
 
+.dividerEnd {
+  width: 100%;
+  height: 1px;
+  margin-bottom: 40px;
+  background-color: #d9d9d9;
+}
+
 header {
   font-size: 16px;
   line-height: 22px;
   font-weight: bold;
   color: #e1624f;
   text-transform: uppercase;
+  padding: 4px 0;
 }
 
-ul li::marker {
-  color: #333333;
+#inicio {
+  padding: 20px 0;
 }
 
-/*
+h1 {
+  margin: auto;
+  padding-bottom: 40px;
+}
+
 h2 {
-  font-style: bold;
+  padding: 4px 4px 8px 0px;
   font-size: 32px;
 }
 
 h3 {
-  font-style: bold;
-  font-size: 28px;
-
+  margin: 20px 0px 0px 10px;
+  font-size: 28PX;
 }
 
-ol {
-  font-size: 28px;
+ul {
+  padding: 0px 0px 48px 0px;
   font-weight: bold;
 }
-ul {
+
+li {
+  margin-left: 20px;
+}
+
+ul li::marker {
+  color: #000000;
+
+}
+
+li:nth-child(1) {
+  color: red;
+}
+
+li:nth-child(2) {
+  color: blue;
+}
+
+li:nth-child(3) {
+  color: green;
+}
+
+.end {
+  text-align: center;
+
+}
+
+footer {
   font-size: 16px;
-  font-weight: normal;
+  text-align: center;
+  font-family: "Alice", serif;
+  margin-bottom: 48px;
 }
 
-p {
-  font-size: 16px;
-  font-weight: normal;
+footer img {
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
 }
-
-hr {
-  margin: 40px auto;
-}
-
-*/
